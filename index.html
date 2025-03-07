@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Vijayaraj - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container">
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-right">
+                <div class="theme-toggle">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </div>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="hero-overlay">
+            <div class="hero-content">
+                <h1 class="hero-name"></h1> <!-- Empty initially for typing effect -->
+                <p class="hero-quote">"It is better to make a mistake than to do nothing" </p>
+                <div class="hero-graphics">
+                    <div class="floating-icon"><i class="fas fa-code"></i></div>
+                    <div class="floating-icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="floating-icon"><i class="fas fa-terminal"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="about-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text hover-item">
+                <p>
+                     Student at Sri Krishna College of Engineering and Technology 
+                    with a passion for web development and software engineering. Eager to explore new opportunities, push boundaries, 
+                    and take companies to the next level while fostering personal and professional development. 
+                    I have experience with both frontend and backend technologies, having worked on several web applications 
+                    using React, Java Spring Boot, and various SQL databases.
+                </p>
+            </div>
+            <div class="about-image hover-item">
+                <img src="img.jpeg" alt="Profile Image" class="about-img">
+            </div>
+        </div>
+        <div class="contact">
+            <p><i class="fas fa-map-marker-alt"></i> Coimbatore, Tamil Nadu</p>
+            <p><i class="fas fa-envelope"></i> ajayvijayaraj57@gmail.com</p>
+            <p><i class="fas fa-phone"></i> +91 9025418958</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Education</h2>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>B.Tech Information Technology</h3>
+                        <h4>Sri Krishna College of Engineering and Technology</h4>
+                        <p class="timeline-period">2021 - 2025</p>
+                        <p>CGPA: 7.6</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Higher Secondary Certificate (HSC)</h3>
+                        <h4>Trinity Matriculation Higher Secondary School</h4>
+                        <p class="timeline-period">2020 - 2021</p>
+                        <p>Score: 93.4%</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Secondary School Leaving Certificate (SSLC)</h3>
+                        <h4>Trinity Matriculation Higher Secondary School</h4>
+                        <p class="timeline-period">2018 - 2019</p>
+                        <p>Score: 94%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="container">
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item hover-item" data-skill="HTML">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="CSS">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="JavaScript">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="React">
+                            <div class="skill-icon"><i class="fab fa-react"></i></div>
+                            <h4>React JS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item hover-item" data-skill="Java">
+                            <div class="skill-icon"><i class="fab fa-java"></i></div>
+                            <h4>Java</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="Spring">
+                            <div class="skill-icon"><i class="fas fa-leaf"></i></div>
+                            <h4>Spring Boot</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item hover-item" data-skill="MySQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>MySQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="PostgreSQL">
+                            <div class="skill-icon"><i class="fas fa-database"></i></div>
+                            <h4>PostgreSQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item hover-item" data-skill="Teamwork">
+                            <div class="skill-icon"><i class="fas fa-users"></i></div>
+                            <h4>Teamwork</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="Leadership">
+                            <div class="skill-icon"><i class="fas fa-crown"></i></div>
+                            <h4>Leadership</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="Communication">
+                            <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                            <h4>Communication</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item hover-item" data-skill="Time Management">
+                            <div class="skill-icon"><i class="fas fa-clock"></i></div>
+                            <h4>Time Management</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Projects</h2>
+        <div class="container">
+            <div class="projects-container">
+                <div class="project-card hover-item" data-project="agri-loan">
+                    <div class="project-content">
+                        <h3>Agri Loan Portal</h3>
+                        <p>Web application built with React Vite for frontend, Spring Boot (Java) for backend, and PostgreSQL for database. It is an admin-user friendly website which enables users to access loan services.</p>
+                        <div class="project-tech">
+                            <span>React Vite</span>
+                            <span>Spring Boot</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hover-item" data-project="hospital">
+                    <div class="project-content">
+                        <h3>Hospital Management System</h3>
+                        <p>Mini web application with Spring Boot (Java) backend and MySQL database. Admin-user friendly website which allows users to book slots in hospitals.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hover-item" data-project="grocery">
+                    <div class="project-content">
+                        <h3>Online Grocery Shopping</h3>
+                        <p>Web application with React JS frontend, Spring Boot (Java) backend, and MySQL database. Provides an admin-user friendly interface for accessing products.</p>
+                        <div class="project-tech">
+                            <span>React JS</span>
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                   
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card hover-item" data-project="carpooling">
+                    <div class="project-content">
+                        <h3>Carpooling</h3>
+                        <p>Mini web application with Spring Boot (Java) backend and MySQL database. Admin-user friendly website which enables users to access rides.</p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="project-links">
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Internship Experience</h2>
+        <div class="container">
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Safetron Virtual Internship</h3>
+                        <h4>Web Development and Java Programming</h4>
+                        <p class="timeline-period">2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Codsoft Virtual Internship</h3>
+                        <h4>Java Programming</h4>
+                        <p class="timeline-period">2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Oasis Infobyte Virtual Internship</h3>
+                        <h4>Java Programming with LOR</h4>
+                        <p class="timeline-period">2023</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content hover-item">
+                        <h3>Prodigy Virtual Internship</h3>
+                        <h4>Web Development with LOR</h4>
+                        <p class="timeline-period">2023</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Achievements</h2>
+        <div class="container">
+            <div class="achievements-container">
+                <div class="achievement-card hover-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>First Prize in Botforge</h3>
+                        <p>Technical event held at Dr. NGP College of Engineering and Technology (Henosis-24)</p>
+                        <p class="achievement-date">March 5, 2024</p>
+                    </div>
+                </div>
+                <div class="achievement-card hover-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Second Prize in Key Charades</h3>
+                        <p>Technical event held at Coimbatore Institute of Technology (Melina-24)</p>
+                        <p class="achievement-date">February 16, 2024</p>
+                    </div>
+                </div>
+                <div class="achievement-card hover-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Third Prize in Code Cross</h3>
+                        <p>Technical event held at Kumaraguru College of Technology (Yugam-23)</p>
+                        <p class="achievement-date">March 3, 2023</p>
+                    </div>
+                </div>
+                <div class="achievement-card hover-item">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="achievement-content">
+                        <h3>Third Prize in Tech Hunt</h3>
+                        <p>Technical event held at Sri Krishna College of Engineering and Technology (IT Dept)</p>
+                        <p class="achievement-date">August 22, 2023</p>
+                    </div>
+                </div>
+            </div>
+            <h3 class="sub-section-title">Workshops</h3>
+            <div class="workshops-container">
+                <div class="workshop-card hover-item">
+                    <div class="workshop-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>Cybersecurity Workshop</h3>
+                        <p>Technical workshop held at Dr. NGP College of Engineering and Technology (Henosis)</p>
+                        <p class="workshop-date">February 2023</p>
+                    </div>
+                </div>
+                <div class="workshop-card hover-item">
+                    <div class="workshop-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="workshop-content">
+                        <h3>ERP Learning Journey with SAP</h3>
+                        <p>Technical workshop conducted by IT Department of Sri Krishna College of Engineering and Technology</p>
+                        <p class="workshop-date">August 27, 2022</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="hover-container">
+        <!-- Removed section-graphic -->
+        <h2 class="section-title">Contact Me</h2>
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item hover-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>ajayvijayaraj57@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item hover-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 9025418958</p>
+                        </div>
+                    </div>
+                    <div class="contact-item hover-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Coimbatore, Tamil Nadu, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Ajaypsiog" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ajay-vijayaraj-v-s-334740258/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="3" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="contact-graphics">
+                <div class="floating-dot"></div>
+                <div class="floating-dot"></div>
+                <div class="floating-dot"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-bottom">
+                    <p>© 2025 Ajay Vijayaraj. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mouse Tail Canvas -->
+    <canvas id="mouse-tail"></canvas>
+
+    <script src="script.js"></script>
+</body>
+</html>
